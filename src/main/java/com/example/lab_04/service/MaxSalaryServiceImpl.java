@@ -1,11 +1,13 @@
-package com.example.lab_04;
+package com.example.lab_04.service;
 
+import com.example.lab_04.dao.DAO;
+import com.example.lab_04.dao.DAOImpl;
 import com.example.lab_04.models.Worker;
 
-public class MaxSalary {
+public class MaxSalaryServiceImpl implements MaxSalaryService{
     private final DAO dao;
 
-    public MaxSalary(DAO dao) {
+    public MaxSalaryServiceImpl(DAO dao) {
         this.dao = dao;
     }
 

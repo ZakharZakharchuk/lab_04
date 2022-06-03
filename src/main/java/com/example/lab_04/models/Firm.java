@@ -1,10 +1,5 @@
 package com.example.lab_04.models;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Objects;
-
 public class Firm {
     private int id;
     private String name;
